@@ -31,10 +31,6 @@ LOCAL_PRIVILEGED_MODULE := true
 #LOCAL_SDK_VERSION := current
 LOCAL_RENDERSCRIPT_TARGET_API := 23
 
-ifneq ($(TARGET_CAMERA_APP),Camera2)
-LOCAL_OVERRIDES_PACKAGES := Camera2
-endif
-
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 # If this is an unbundled build (to install separately) then include
