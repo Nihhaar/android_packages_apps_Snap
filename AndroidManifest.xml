@@ -74,11 +74,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+	    <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
         </activity-alias>
 
         <activity-alias
             android:name="com.android.camera.PhotoCamera"
-            android:icon="@mipmap/ic_launcher_camera"
+            android:icon="@mipmap/ic_launcher_camera_round"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:targetActivity="com.android.camera.PermissionsActivity">
@@ -137,7 +138,7 @@
 
         <activity-alias
             android:name="com.android.camera.CameraGestureActivity"
-            android:icon="@mipmap/ic_launcher_camera"
+            android:icon="@mipmap/ic_launcher_camera_round"
             android:label="@string/camera_gesture_title"
             android:targetActivity="com.android.camera.SecureCameraActivity">
             <intent-filter>

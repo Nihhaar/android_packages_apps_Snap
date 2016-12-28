@@ -664,4 +664,10 @@ CHAR LIMIT = NONE] -->
 
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">Setting wallpaper</string>
+
+    <!-- App Shortcuts -->
+    <string name="shortcut_selfie_short_label">Selfie</string>
+    <string name="shortcut_video_short_label">Video</string>
+    <string name="shortcut_video_long_label">Take a video</string>
+    <string name="shortcut_selfie_long_label">Take a selfie</string>
  </resources>
